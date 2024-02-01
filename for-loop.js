@@ -54,3 +54,23 @@ for(let i=1; i<=20; i++)
     }
 
 }
+
+/*
+*
+** 100+200+300+400+500 find the sum using for loop
+
+*/
+
+console.log("\n");
+
+let sum=0;
+
+for(let i=100; i<=500; i=i+100)
+
+{
+
+    sum=sum+i;
+  
+}
+
+console.log("The Sum Is: ", sum);
